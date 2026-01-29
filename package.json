@@ -1,6 +1,7 @@
 {
   "name": "country-app",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -36,7 +37,11 @@
     "@angular/build": "^21.1.1",
     "@angular/cli": "^21.1.1",
     "@angular/compiler-cli": "^21.1.0",
+    "autoprefixer": "^10.4.23",
+    "daisyui": "^3.9.4",
     "jsdom": "^27.1.0",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^3.4.19",
     "typescript": "~5.9.2",
     "vitest": "^4.0.8"
   }
