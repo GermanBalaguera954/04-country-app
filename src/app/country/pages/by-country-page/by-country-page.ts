@@ -7,4 +7,6 @@ import { CountryList } from "../../components/country-list/country-list/country-
   imports: [SearchInput, CountryList],
   templateUrl: './by-country-page.html',
 })
-export class ByCountryPage { }
+export class ByCountryPage {
+countries: any;
+}
